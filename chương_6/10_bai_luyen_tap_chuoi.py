@@ -96,3 +96,5 @@ if b:
     print(f"{a} là số nhị phân, chuyển sang thập phân: {c}")
 else:
     print(f"{a} không phải là số nhị phân.")
+
+
