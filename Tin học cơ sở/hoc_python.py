@@ -19,7 +19,7 @@ fruits = ["apple", "banana", "orange"]
 coordinates = (10, 20)
 person = {"name": "Ngô Đức Quang", "age": 18, "city": "Hai Duong"}
 #Cách kiểm tra dữ liệu 
-'''print(type(x))''' #In ra <class 'int'>
+print(type(x)) #In ra <class 'int'>
 #Các phép toán với biến: +, -, *, /, //(chia lấy phần nguyên), %(lấy dư)
 a = 10
 b = 3
@@ -67,4 +67,49 @@ gioi_tinh = "Nam"
 tuoi = 20
 if gioi_tinh == "nam" and tuoi >= 18:
     print("Bạn là nam và đủ tuổi để đi làm")
+
+#Vòng lặp trong Python
+#Vòng lặp for: lặp lại qua các phần tử của một dãy (danh sách, tuples, chuỗi)
+fruits = ["apples", "banana", "cherry"]
+for x in fruits:
+    print(x)
+#Vòng lặp while: tiếp tục thực hiện một khối lệnh cho đến khi điều kiện kiểm tra trở thành False (code thực thi khi điều kiện là True)
+a = 0
+while a < 5:
+    print(a)
+    a += 1
     
+#Danh sách trong Python(list):tập hợp các phần tử có thứ tự, có thể thay đổi và cho phép các phần tử trùng lặp, các phần tử trong danh sách có thể thuộc bất kỳ kiểu dữ liệu nào
+#Tạo danh sách:
+my_list = [1, 2, 3, "apple", "banana"]
+#Truy cập phần tử:
+print(my_list[0])
+#Sửa đổi phần tử:
+my_list[2] = "orange"
+#Thêm phần tử:
+my_list.append("grape")
+
+#Tuples: khônng thay đổi được sau khi tạo, thương dùng để lưu trữ dữ liệu không thay đổi
+#Taoh tuples
+my_tuple = (1, 2, 3)
+#Truy cập phần tử:
+print(my_tuple[1])
+
+#Dictionaríe: là một tập hợp các cặp key-value, không có thứ tự và mỗi key là duy nhất, được sử dụng để lưu trữ dữ liệu theo cặp khoá- giá trị
+#Tạo và truy cập giá trị:
+my_dict = {"name": "John", "age": 36}
+print(my_dict["name"])
+#Thêm cặp key-value:
+my_dict["city"] = "New York"
+
+#Hàm trong python: thực hiện một nhiệm vụ cụ thể, cần lặp đi lặp lại trong chương trình của mình, thay vì viết lại đoạn code nhiều lần thì chỉ cần tạo một hàm và gọi hàm đó mỗi khi cần
+#Cú pháp tạo hàm:
+# def ten_ham(tham_so1, tham_so2):
+    #Các lệnh thực hiện trong hàm return kết_quả (return: từ khoá trả về kết quả của hàm)
+    #Tuỳ chọn, trả về kết quả
+
+
+
+
+
+
